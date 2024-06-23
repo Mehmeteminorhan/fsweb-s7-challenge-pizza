@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+.onay-container{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.onay-logo{
+    margin-top: 6%;
+}
+
+
+.onay-yazi {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.onay-yazi p{
+    padding: -10px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    font-size: 86px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    color: white;
+}

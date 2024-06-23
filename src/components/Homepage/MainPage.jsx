@@ -1,14 +1,15 @@
 import React from 'react'
 import './MainPage.css'
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 export default function MainPage(){
+    let history = useHistory()
 
     const acikClick = () => {
         history.push('/OrderPage');
         
     }
-
     return (<>
         <div className="main-container">
         <img src="./Assets/mile1-assets/logo.svg" className="logo" />
