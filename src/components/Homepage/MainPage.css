@@ -1,0 +1,65 @@
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+
+
+.tanitim{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: white; 
+    font-size: 5em;
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    line-height: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tanitim p{
+    padding: -10px;
+    letter-spacing: -4px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+
+}
+
+.aciktim{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    padding: 1% 4%;
+    font-family: "Roboto Condensed" ;
+    color: black;
+    background-color: #FDC913;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.main-image {
+    width: 98vw;
+    height: auto;}
