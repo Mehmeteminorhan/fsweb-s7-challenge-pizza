@@ -1,0 +1,35 @@
+
+.active-link{
+    color: white;
+}
+
+.navbar {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Barlow';
+    line-height: 28.8px;
+    padding: 10px;
+}
+
+.order-logo{
+    margin-top: 6%;
+    align-items: center;
+}
+
+.order-header{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 19%;
+    background-color: #CE2829;
+}
+
+header {
+    display: inline;
+    background-color: #CE2829;
+}
+
+.order-page{
+    background-color:  white;
+    padding: 20px;
+}
