@@ -1,27 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import workintech from '/workintech.svg'
-import './App.css'
-import MainPage from './components/Homepage/MainPage'
-import { Route, Router, Switch } from 'react-router-dom/cjs/react-router-dom.min'
-import CorrectionPage from './components/CorrectionPage/Correction'
-import OrderPage from './components/OrderPage/OrderPage'
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import MainPage from './components/Homepage/MainPage';
+import CorrectionPage from './components/CorrectionPage/Correction';
+import OrderPage from './components/OrderPage/OrderPage';
+import './App.css';
 
 function App() {
   return (
-    <Switch>
-      <Route exact path="/">
-        <MainPage />
-      </Route>
-      <Route path="/OrderPage">
-        <OrderPage/>
-      </Route>
-      <Route path="/CorrectionPage">
-        <CorrectionPage />
-      </Route>
-    </Switch>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={MainPage} />
+        <Route path="/OrderPage" component={OrderPage} />
+        <Route path="/CorrectionPage" component={CorrectionPage} />
+      </Switch>
+    </Router>
   );
 }
 
-export default App
+export default App;

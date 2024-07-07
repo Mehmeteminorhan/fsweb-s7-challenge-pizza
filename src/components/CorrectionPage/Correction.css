@@ -1,11 +1,22 @@
+
 body{
     margin: 0px;
+    
 }
 
-.onay-container{
+.onayback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #CE2829;
+
+}
+
+.onayli-container{
     text-align: center;
     width: 100%;
     height: 100%;
+    background-color: #CE2829;
 }
 
 .onay-logo{
