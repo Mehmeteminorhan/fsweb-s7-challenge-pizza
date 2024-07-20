@@ -1,6 +1,9 @@
 import React from 'react'
 import './MainPage.css'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+import Logo from '../../../Assets/mile1-assets/logo.svg'
+import Banner from '../../../Assets/mile1-assets/home-banner.png'
+
 
 
 export default function MainPage(){
@@ -12,7 +15,7 @@ export default function MainPage(){
     }
     return (<>
         <div className="main-container">
-        <img src="./Assets/mile1-assets/logo.svg" className="logo" />
+        <img src={Logo} className="logo" />
         <div className="tanitim">
         <p
             style={{
@@ -33,7 +36,7 @@ export default function MainPage(){
                 ACIKTIM
             </button>
             <img
-            src='./Assets/mile1-assets/home-banner.png'
+            src={Banner}
             className='main-image'
         ></img>
         </div>

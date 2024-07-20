@@ -3,6 +3,7 @@ import { NavLink, useHistory } from 'react-router-dom';
 import './OrderPage.css';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import axios from 'axios';
+import Logo from '../../../Assets/mile1-assets/logo.svg'
   
   const icindekilerList = [
     'Pepperoni',
@@ -93,7 +94,7 @@ import axios from 'axios';
       <>
         <div className="order-header">
           <header>
-            <img src="./Assets/mile1-assets/logo.svg" className="order-logo" />
+            <img src= {Logo} className="order-logo" />
             <div className="navigation">
               <NavLink
                 exact
